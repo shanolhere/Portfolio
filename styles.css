@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: black;
+}
+/* .background {
+  background-image: linear-gradient(
+    to left bottom,
+    #6251e3,
+    #794ee4,
+    #8e49e5,
+    #a144e4,
+    #b43de3
+  );
+} */
+.background {
+  position: relative;
+  width: 100%;
+  background: #eff4fd;
+  height: 100vh;
+}
+
+header {
+  padding: 1.6rem 7.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-class a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: orange;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 3.4rem;
+  list-style-type: none;
+}
+.nav-link a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: black;
+  transition: all 0.2s;
+}
+.nav-link a:hover,
+.nav-link a:active {
+  color: orange;
+  border-bottom: 3px solid orange;
+  cursor: pointer;
+}
+
+/*section hero*/
+
+.section-hero {
+  margin: 0 auto;
+  padding: 5rem 4rem 4rem 4rem;
+}
+
+.hero-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+}
+.hero-img img {
+  border-radius: 50%;
+  border: 6px solid orange;
+  margin-bottom: 2rem;
+}
+.hero-info {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  justify-content: center;
+}
+.hero-info h1 {
+  color: rgb(8, 8, 8);
+  font-size: 2.6rem;
+}
+.hero-info h1 span {
+  color: orange;
+  font-size: 2.6rem;
+}
+.hero-info .para1 {
+  color: rgb(81, 80, 80);
+  font-size: 1.03rem;
+  font-weight: bolder;
+  margin-top: 0.8rem;
+}
+.hero-info .para2 {
+  margin-top: 0.6rem;
+  color: rgb(165, 163, 163);
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: black;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.btn-primary {
+  color: white;
+  background-color: orange;
+}
+.btn-primary:link,
+.btn-primary:visited {
+  background-color: orange;
+  color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: rgb(241, 234, 234);
+  color: orange;
+  /* border: 3px solid orange; */
+  box-shadow: inset 0 0 0 3px orange;
+}
+
+/*about-me section*/
+
+.about-me {
+  padding: 4rem 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1.6rem 7.8rem;
+}
+
+.container .about {
+  color: orange;
+  /* border-bottom: 3px solid orange; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.6rem;
+}
+
+.about-me-info {
+  padding: 4rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(2, 0.8fr);
+  gap: 2rem;
+}
+.about-me-img img {
+  width: 30rem;
+  height: 50vh;
+}
