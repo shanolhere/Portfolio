@@ -149,15 +149,14 @@ header {
 /*about-me section*/
 
 .about-me {
-  padding: 4rem 1rem;
+  padding: 3.6rem 1rem 0rem 1rem;
 }
 
 .container {
   margin: 0 auto;
-  padding: 1.6rem 7.8rem;
+  padding: 2.6rem 7.8rem;
 }
-
-.container .about {
+.sub-heading {
   color: orange;
   /* border-bottom: 3px solid orange; */
   display: flex;
@@ -167,12 +166,122 @@ header {
 }
 
 .about-me-info {
-  padding: 4rem 0rem;
+  padding: 3rem 3rem;
   display: grid;
-  grid-template-columns: repeat(2, 0.8fr);
-  gap: 2rem;
+  grid-template-columns: 0.9fr 1fr;
+  min-height: 2rem;
+  gap: 4.8rem;
 }
 .about-me-img img {
+  margin-top: 1rem;
   width: 30rem;
+  height: 60vh;
+}
+.about-me-description {
+  padding: 2rem 0rem 8.8rem 0rem;
+}
+.description {
+  margin-bottom: 1.8rem;
+  color: rgb(165, 163, 163);
+  font-size: 1.3rem;
+  font-weight: lighter;
+  line-height: 2rem;
+  text-indent: initial;
+}
+.description span {
+  color: orange;
+  text-decoration: dotted;
+}
+
+/*skills section*/
+.fluid-container {
+  margin: 2rem auto;
+  padding: 0rem 7rem;
+  margin: 4rem 2.8rem;
+}
+.skills-content {
+  padding: 2rem 7.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills-box {
+  display: grid;
+  grid-template-columns: repeat(6, 0.6fr);
+  gap: 3rem;
+  justify-items: center;
+  padding-bottom: 3rem;
+  /* vertical-align: middle; */
+}
+.skill {
+  /* vertical-align: middle; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill .icon {
+  width: 3rem;
+  height: 3.5rem;
+  color: orange;
+}
+.skill p {
+  font-size: 1.3rem;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  /* padding-top: 3rem; */
+  margin-bottom: 1.8rem;
+  color: rgb(165, 163, 163);
+  font-size: 1.3rem;
+  font-weight: lighter;
+  line-height: 2rem;
+  text-indent: initial;
+}
+.para span {
+  color: orange;
+  text-decoration: dotted;
+}
+
+/* projects section */
+.quote {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.8rem;
+  color: rgb(165, 163, 163);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: lighter;
+  line-height: 2rem;
+  text-indent: initial;
+}
+
+/* footer (contact) section */
+footer {
+  /* background-color: #eff4fd; */
+  border-top: 2px solid #e5e9ec;
+  margin: 2rem auto;
+  padding: 0rem 7rem;
+  margin: 4rem 2.8rem;
+}
+.connect {
+  padding: 3rem 7rem;
+}
+.contact-image {
+  padding: 3.8rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  /* background-image: url("https://i.pinimg.com/564x/eb/24/78/eb247822aa6eb8c9c20a5fc3e1c40e22.jpg"); */
   height: 50vh;
+  opacity: 0.3;
 }

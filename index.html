@@ -7,6 +7,16 @@
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
     <link rel="manifest" href="manifest.webmanifest" /> -->
 
+    <!-- Ionic icons usage installation -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
@@ -25,9 +35,9 @@
           <ul class="nav-list">
             <li class="nav-link active"><a href="#hero">Home</a></li>
             <li class="nav-link"><a href="#about-me">About</a></li>
-            <li class="nav-link"><a href="">Skills</a></li>
-            <li class="nav-link"><a href="">Projects</a></li>
-            <li class="nav-link"><a href="">Contact</a></li>
+            <li class="nav-link"><a href="#skills">Skills</a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -67,7 +77,7 @@
 
     <section class="about-me" id="about-me">
       <div class="container">
-        <p class="about">About me</p>
+        <p class="sub-heading">About me</p>
         <div class="about-me-info">
           <div class="about-me-img">
             <img
@@ -78,13 +88,18 @@
           <div class="about-me-description">
             <!-- <h3>A li'l bit about myself</h3> -->
             <p class="description">
-              I'm a passionate self-taught web developer who has a major
-              interest in web development field. All thanks to
+              I'm a <span>computer science graduate</span> who loves to build
+              and develop things via web.
+            </p>
+            <p class="description">
+              Also I'm a passionate <span>self-taught</span> web developer who
+              has a major interest in web development field. All thanks to
               <span>marquee</span> tag which drawn my attention during my
               college days and ignited my interest towards buiding things via
-              web. It's true that visual appearances drags peoples'
-              attention.<br />
+              web. It's true that visual appearances drags peoples' attention.
+            </p>
 
+            <p class="description">
               I love building and learning new things, writing and speaking to
               people.
             </p>
@@ -92,5 +107,83 @@
         </div>
       </div>
     </section>
+
+    <section class="skills" id="skills">
+      <p class="sub-heading">My Skills</p>
+      <div class="fluid-container">
+        <!-- <p class="sub-heading">My Skills</p> -->
+        <div class="skills-content">
+          <div class="skills-box">
+            <div class="skill skill-1">
+              <ion-icon class="icon" name="logo-html5"></ion-icon>
+              <p>HTML</p>
+            </div>
+
+            <div class="skill skill-2">
+              <ion-icon class="icon" name="logo-css3"></ion-icon>
+              <p>CSS</p>
+            </div>
+
+            <div class="skill skill-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                class="icon"
+                fill="currentColor"
+                class="bi bi-bootstrap-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"
+                />
+                <path
+                  d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"
+                />
+              </svg>
+              <p>Bootstrap</p>
+            </div>
+
+            <div class="skill skill-4">
+              <ion-icon class="icon" name="logo-javascript"></ion-icon>
+              <p>JS</p>
+            </div>
+
+            <div class="skill skill-5">
+              <ion-icon class="icon" name="logo-react"></ion-icon>
+              <p>ReactJS</p>
+            </div>
+
+            <div class="skill skill-6">
+              <ion-icon class="icon" name="logo-python"></ion-icon>
+              <p>Python</p>
+            </div>
+          </div>
+          <p class="para">
+            I work with HTML, CSS, JavaScript, React, Python mostly along with
+            suitable packages and version control using <span>Git</span> and
+            <span>GitHub.</span> And also I'm familiar with different editors
+            like VS code Editor, Sublime Text; Tools like
+            <span>Chrome DevTools, CodePen,</span> etc. and deployment sites
+            like <span>Netlify, Vercel, Heroku </span> etc.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <p class="sub-heading">My Projects</p>
+      <p class="quote">
+        Life is trying things to see if they work. ~ Ray Bradbury
+      </p>
+      <div class="fluid-container"></div>
+    </section>
+
+    <footer id="contact">
+      <p class="sub-heading connect">Let's connect</p>
+      <div class="contact-image">
+        <img src="images/undraw_social_girl.svg" alt="connect image" />
+      </div>
+    </footer>
   </body>
 </html>
