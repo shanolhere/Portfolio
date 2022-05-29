@@ -65,7 +65,7 @@ header {
 
 .section-hero {
   margin: 0 auto;
-  padding: 5rem 4rem 4rem 4rem;
+  padding: 3rem 4rem 4rem 4rem;
 }
 
 .hero-description {
@@ -280,8 +280,47 @@ footer {
   justify-content: center;
   align-items: center;
 }
-footer img {
-  /* background-image: url("https://i.pinimg.com/564x/eb/24/78/eb247822aa6eb8c9c20a5fc3e1c40e22.jpg"); */
-  height: 30vh;
+/* .contact-image {
+  background-image: url("images/undraw_social_girl.svg");
+
   opacity: 0.3;
+} */
+.footer-para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto 6.9rem;
+  margin-bottom: 1.8rem; */
+  color: rgb(165, 163, 163);
+  font-size: 1.3rem;
+  font-weight: lighter;
+  line-height: 2rem;
+  text-indent: initial;
+}
+.footer-content {
+  margin: 2rem;
+}
+.footer-content ul {
+  list-style-type: none;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.footer-content ul li {
+  margin-right: 1.7rem;
+  transition: 0.3s ease-in;
+}
+.footer-content ul li:hover {
+  transform: translateY(-9px);
+  cursor: pointer;
+}
+footer .icon {
+  width: 3rem;
+  height: 2.8rem;
+  color: orange;
+}
+footer span {
+  color: orange;
+  margin-left: 5px;
 }
